@@ -1,0 +1,130 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AriguinhaLambdaTest/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.400.7",
+          "AWSSDK.S3": "3.7.401",
+          "AWSSDK.SQS": "3.7.400.7",
+          "Amazon.Lambda.Core": "2.2.0",
+          "Amazon.Lambda.SQSEvents": "2.2.0",
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.4.1"
+        },
+        "runtime": {
+          "AriguinhaLambdaTest.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/2.2.0": {
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.4.1": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.2.0"
+        },
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.SQSEvents/2.2.0": {
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.SQSEvents.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.400.7": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.400.7"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.401": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.400.7"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.401.0"
+          }
+        }
+      },
+      "AWSSDK.SQS/3.7.400.7": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.400.7"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.SQS.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.400.7"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AriguinhaLambdaTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.Core/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DHqKeD1CYocP0t1dJC/NaXfu+5k6AoqnQ1Hlu/J2mXpLpCyeJfY+tIqT5fpruDarUlU0NtdIH8zSkCjeinyb1A==",
+      "path": "amazon.lambda.core/2.2.0",
+      "hashPath": "amazon.lambda.core.2.2.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X06Z8zPDZJS/xAoAntSqsxOoSSKKFJMg+0QGPRtlPt1mbP19HFXlXn+q+XqHdVWWFsiH/r7KbDIICr0nsrlwug==",
+      "path": "amazon.lambda.serialization.systemtextjson/2.4.1",
+      "hashPath": "amazon.lambda.serialization.systemtextjson.2.4.1.nupkg.sha512"
+    },
+    "Amazon.Lambda.SQSEvents/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RyYLgEa6nh+VJrCfTDKxvTLS1+eLDIIDyHgwDY3TR1WQz1+UeDIcccOJvoDk2nmjkSA0TfWJmZX9Ld0ySf57lA==",
+      "path": "amazon.lambda.sqsevents/2.2.0",
+      "hashPath": "amazon.lambda.sqsevents.2.2.0.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.400.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tq3I/PaDMyq+E6wxFiu72kf/rsElHKRuYlmET33ISZ9x5nDje7yg3efEri0TP5PmmLoqBchfcfa0J6Eet4O1MA==",
+      "path": "awssdk.core/3.7.400.7",
+      "hashPath": "awssdk.core.3.7.400.7.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.401": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G2fhk2FCOMp5Jv72GnvQMCgIhgNEkZK+yiLpG/ZCxp67wZ8+YDsB5ogc4C4a2olUuiCCRnUWiCFlFHzkpZMvIw==",
+      "path": "awssdk.s3/3.7.401",
+      "hashPath": "awssdk.s3.3.7.401.nupkg.sha512"
+    },
+    "AWSSDK.SQS/3.7.400.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/JRmsEh1ZL6HxCS3oqQrzzIdHTb3ISn6nkiF2cG+ubXR5uz6Zs43J3sxgcgGLI0fYK9rQhBBwM6ZsGr11TP57w==",
+      "path": "awssdk.sqs/3.7.400.7",
+      "hashPath": "awssdk.sqs.3.7.400.7.nupkg.sha512"
+    }
+  }
+}
